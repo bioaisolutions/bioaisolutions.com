@@ -18,6 +18,12 @@
     "watch": "node build/watch.js"
   },
   "devDependencies": {
+    "@babel/traverse": ">=7.23.2",
+    "ws": ">=8.17.1",
+    "braces": ">=3.0.3",
+    "follow-redirects": ">=1.15.6",
+    "axios": ">=0.28.0",
+    "postcss": ">=8.4.31",
     "@babel/preset-env": "^7.22.20",
     "@rollup/plugin-babel": "^6.0.3",
     "@rollup/plugin-node-resolve": "^15.2.1",
@@ -32,7 +38,6 @@
     "html-validate": "^8.4.1",
     "npm-run-all": "^4.1.5",
     "npmlog": "^7.0.1",
-    "postcss": "^8.4.30",
     "prettier": "^3.0.3",
     "rollup": "^3.29.3",
     "sass": "^1.68.0",
@@ -40,6 +45,12 @@
     "stylelint-config-twbs-bootstrap": "^11.0.1"
   },
   "dependencies": {
+    "@babel/traverse": ">=7.23.2",
+    "ws": ">=8.17.1",
+    "braces": ">=3.0.3",
+    "follow-redirects": ">=1.15.6",
+    "axios": ">=0.28.0",
+    "postcss": ">=8.4.31",
     "@lottiefiles/lottie-player": "^2.0.2",
     "bootstrap": "^5.3.2",
     "boxicons": "^2.1.4",
